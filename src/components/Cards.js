@@ -8,7 +8,7 @@ import './Cards.css';
 function Cards(props) {
     return (
         <div className='cards'>
-            <h1>Check out these EPIC Destinations</h1>
+      <h1>Check out these Amazing Opportunities</h1>
             <div className='cards_container'>
                 <div className='cards_wrapper'>
                     <ul className='cards_items'>
@@ -19,8 +19,8 @@ function Cards(props) {
                     path='/services'
                     />
                      <CardItem 
-                    src='images/img-2.jpg'
-                    text='Travel through the Islands of Bali in a Private Cruise'
+                    src='images/img-5.jpg'
+                    text='Stay at the most luxurious hotels'
                     label='Luxury'
                     path='/services'
                     />
@@ -28,13 +28,13 @@ function Cards(props) {
                     <ul className='cards_items'>
                     <CardItem 
                     src='images/img-3.jpg'
-                    text='Hike to the top of the Himilayan Mountains'
+                    text='Set sail in the Atlantic Ocean Visiting Uncharted waters'
                     label='Adventure'
                     path='/services'
                     />
                      <CardItem 
                     src='images/img-4.jpg'
-                    text='Set sail in the Atlantic Ocean Visiting Uncharted waters'
+                    text='Hike to the top of the Himilayan Mountains'
                     label='Adrenaline'
                     path='/services'
                     />
